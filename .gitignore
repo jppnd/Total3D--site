@@ -1,0 +1,16 @@
+# Dependências e builds
+node_modules/
+dist/
+
+# Segredos e configuração local (nunca versionar)
+.env
+.env.*
+*.pem
+*.key
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
